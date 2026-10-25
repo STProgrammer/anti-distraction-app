@@ -1,0 +1,58 @@
+# Gradle, Kotlin, and Android build output
+.gradle/
+.kotlin/
+**/build/
+out/
+.cxx/
+.externalNativeBuild/
+/captures/
+*.class
+*.dex
+*.hprof
+
+# Release artifacts belong in GitHub Releases
+/dist/
+*.apk
+*.aab
+*.ap_
+*.idsig
+
+# Local SDK paths and signing credentials
+local.properties
+/signing/
+keystore.properties
+signing.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.key
+
+# Local environment values; example files may be committed
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# IDE and editor state
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+*~
+
+# Generated diagnostics; keep authored documentation and screenshots
+*.log
+/docs/reports/
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Keep Gradle wrapper scripts, its JAR, and its properties in version control.
+# Do not add blanket *.jar or *.properties rules.

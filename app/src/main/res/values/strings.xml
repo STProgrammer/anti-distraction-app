@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Intent</string>
+    <string name="service_description">Intent notices which app is open and shows your intention prompt and daily timer. It reads package names and window metadata only, never screen contents, messages or passwords. Android bundles window metadata with its screen-access permission, but Intent never queries screen nodes. No data leaves your phone. Home and Back always let you leave a prompt.</string>
+    <style name="Theme.Intent" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:colorAccent">#167D73</item>
+    </style>
+</resources>
